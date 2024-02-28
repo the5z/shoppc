@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo img{
+    width: 7%;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border:#fff;
+    background-image: radial-gradient(square, #456BD9, #456BD9 66%, transparent 66%);
+}
+header{
+    background-color: rgb(35, 49, 241);
+    color: #cffd26;
+    padding: 20px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+    margin-right: 20px;
+    margin-top: 15px;
+}
+nav li:hover{
+    background-color: brown;
+    padding: 5px;
+    border-radius: 5px;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    margin: 30px 15px 10px 0px;
+}
+main{
+    padding: 50px;
+}
+main h1{
+    text-align:start;
+    word-wrap: break-word;
+
+}
+.section{
+    margin-bottom:50px;
+}
+.section p{
+    text-align: center;
+    color: red;
+}
+.section h2{
+    text-align: center;
+    margin: 0 0 20px;
+    color: rgb(35, 49, 241);
+}
+.section h3{
+    text-align: center;
+    margin: 0 0 20px;
+    color: cadetblue;
+    font-size: 15px;
+}
+.section a{
+    text-align: center;
+    font-size: 10px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product{
+    width: calc(25% - 20px);
+    margin-bottom: 50px;
+    text-align: center;
+}
+.product img{
+    width: 70%;
+    margin-bottom: 20px;
+    border: 2px solid rgb(250, 155, 31);
+    border-radius: 20px;
+}
+.product h3{
+    margin: 0;
+}
+.product p{
+    margin: 10px 0;
+}
+.product button{
+    background-color: rgb(241, 8, 8);
+    color: aliceblue;
+    border: 1px solid gainsboro;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+section form{
+    margin-left: 35%;
+}
+section form input{
+    margin-top: 50px;
+    width: 300px;
+    height: 30px;
+    margin-left:370px ;
+}
+#name{
+    margin-left: 54px;
+}
+#email{
+    margin-left: 38px;
+}
+#password{
+    margin-left: 19px;
+}
+#birthday{
+    margin-left: 20px;
+}
+#message{
+    margin-left: 57px;
+}
+section form button{
+    margin-top: 20px;
+    width: 50px;
+    height: 25px;
+    margin-left: 370px;
+}
+footer{
+    background-color: rgb(203, 250, 32);
+    color: #272bf8;
+    padding: 20px;
+    text-align: center;
+}
+@media screen and (max-width:768px){
+    header{
+        padding: 10px;
+    }
+    nav ul{
+        flex-wrap: wrap;
+    }
+    nav li{
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .products{
+        flex-wrap: wrap;
+    }
+    .product{
+        width: calc(100%/2-10px);
+        margin-bottom: 30px;
+    }
+    
+}
